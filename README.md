@@ -2,6 +2,8 @@
 
 A Python package for processing synchrotron X-ray diffraction data from 2D detectors, converting scan data into 3D reciprocal space maps (h,k,l coordinates) with interactive visualization capabilities. This package has been tested at multiple beamlines at APS, CLS, SSRL, and ESRF, in multiple soft X-ray and hard X-ray diffraction and scattering experiments.
 
+<img src="lscan.gif" width="300"/>
+
 ## Features
 
 - Load and process synchrotron XRD spec files with 2D detector images
@@ -45,6 +47,29 @@ grid_data, coords = rsm_convert('your_file', [14, 15, 16],
 # Visualize h-slices through the data
 h_slice(grid_data, coords, logscale=True, title="H-slices")
 ```
+<table>
+  <tr>
+      <td align="center" style="vertical-align: bottom;">
+        <em>Output of h_slice</em>
+      </td>
+      <td align="center" style="vertical-align: bottom;">
+        <em>Output of visualize_det</em>
+      </td>
+    </tr>
+  <br>
+  <tr>
+    <td align="center" style="vertical-align: bottom;">
+      <div style="height: 200px; display: flex; align-items: center; justify-content: center;">
+        <img src="lscan.gif" width="300" ; object-fit: contain;"/>
+      </div>
+    </td>
+    <td align="center" style="vertical-align: bottom;">
+      <div style="height: 200px; display: flex; align-items: center; justify-content: center;">
+        <img src="detector.gif" width="300" ; object-fit: contain;"/>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ## API Reference
 
