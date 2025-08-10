@@ -2,7 +2,6 @@
 
 A Python package for processing synchrotron X-ray diffraction data from 2D detectors, converting scan data into 3D reciprocal space maps (h,k,l coordinates) with interactive visualization capabilities. This package has been tested at multiple beamlines at APS, CLS, SSRL, and ESRF, in multiple soft X-ray and hard X-ray diffraction and scattering experiments.
 
-
 ## Features
 
 - Load and process synchrotron XRD spec files with 2D detector images
@@ -242,7 +241,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Citation
 
-If you use this software in your research, please cite:
+If you think this software helps your research, please cite:
 
 ```bibtex
 @software{pyrsm,
