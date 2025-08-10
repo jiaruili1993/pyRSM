@@ -5,6 +5,7 @@ import silx
 import os
 import plotly
 import plotly.graph_objects as go
+import glob
 
 from PIL import Image
 
@@ -745,7 +746,7 @@ def h_slice_gif(grid_data, coords, file_name,
         )
         return fig
 
-    for ii in range(len(coords[1])):
+    for ii in range(len(coords[0])):
         frame = plot(ii)
         frame.write_image("image_export\\"+file_name+'_'+str(ii).zfill(2)+".png")
 
@@ -806,7 +807,7 @@ def l_slice_gif(grid_data, coords, file_name,
         )
         return fig
 
-    for ii in range(len(coords[1])):
+    for ii in range(len(coords[2])):
         frame = plot(ii)
         frame.write_image("image_export\\"+file_name+'_'+str(ii).zfill(2)+".png")
 

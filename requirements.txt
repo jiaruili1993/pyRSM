@@ -4,5 +4,4 @@ silx>=1.0.0
 pandas>=1.2.0
 plotly>=5.0.0
 pillow>=8.0.0
-pyevtk>=1.4.0
 vtk>=9.0.0
