@@ -215,7 +215,7 @@ custom_range = [[-0.1, 0.1], [-0.1, 0.1], [2.9, 3.1]]
 grid_data, coords = rsm_convert(file_name, scan_list,
                                h_n=100, k_n=100, l_n=100,
                                hklrange=custom_range)
-
+```
 
 ## Technical Details
 
@@ -230,6 +230,8 @@ grid_data, coords = rsm_convert(file_name, scan_list,
 - **Detector axes**: x+, z- 
 - **Reference vector**: [0,1,0] (surface normal)
 - **Primary beam**: [0,0,1] direction
+
+<img src="images\Diffractometer.png" width="300"/>
 
 ### Data Processing
 - Automatic I0 normalization using ion chamber readings
