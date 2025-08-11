@@ -72,6 +72,14 @@ your_project/
 
 ## Technical Details
 
+The code has been tested working in multiple beamlines, including:
+- **APS**: 4ID, 6ID, 7ID
+- **SSRL**: 17-2, 13-3
+- **CLS**: REIXS
+- **ESRF**: BM28-(XMAS)
+
+However, each beamline and experiment will have different configuration. Please confirm the diffractormeter and detector configuration, as well as spec motor names, image path, and naming conventions.
+
 ### Detector Configuration (different from experiment to experiment)
 - **Detector**: 516×516 pixel area detector
 - **Pixel size**: 55 μm
@@ -127,6 +135,13 @@ If you think this software helps your research, please cite:
   url={https://github.com/jiaruili1993/pyRSM}
 }
 ```
+
+## Acknowledgments
+
+- Advanced Photon Source (APS): P. Ryan, J.W. Kim
+- Stanford Synchrotron Radiation Lightsource (SSRL): V. Thampy, J.S. Lee
+- Canadian Light Source (CLS): R. Sutarto
+- European Synchrotron Radiation Facility (ESRF): P. Thompson
 
 ## Support
 
